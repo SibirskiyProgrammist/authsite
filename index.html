@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome!</title>
+  </head>
+  <body>
+    <a href="#" class="btnlog">Log in</a>    
+    <a href="#" class="buttonauth">Authorization</a>   
+    <a href="#" class="recoverpass">Recover Password</a> 
+    <div class="blform">
+      <h1>Log in</h1>
+      <form action="">
+        <label for="frmlog">Login</label>
+        <input type="text" id="frmlog" required placeholder="Enter login..">
+        <br>
+        <label for="frmlog">Password</label>
+        <input type="password" id="frmpass" required placeholder="Enter password..">
+        <br>
+        <input type="button" value="Log in" class="frmbut">
+        <input type="reset" value="Cancel">
+      </form>
+    </div>
+
+    <div class="authform">
+      <h1>Authorization</h1>
+      <form action="">
+        <label for="authlogin">Enter your login</label>
+        <input type="text" id="authlogin" required placeholder="Your new login...">
+        <br>
+        <label for="authpass">Password</label>
+        <input type="password" id="authpass" required placeholder="Your new password...">
+        <input type="password" id="authpassrepeat" required placeholder="Repeat password...">
+        <input type="button" value="Create new account" class="accessauth">
+        <input type="reset" value="Cancel">
+      </form>
+    </div>
+
+    <div class="recoverpage">
+      <p>Recovering page</p>
+      <input type="text" id="logininfo" required placeholder="Enter your password">
+      <input type="button" value="Recover!" class="buttonrecover">
+    </div>
+    <input type="button" value="Log out" id="logoutbutton">
+    <div class="content"></div>
+
+    <script src="script.js?v=1"></script>
+  </body>
+</html>
